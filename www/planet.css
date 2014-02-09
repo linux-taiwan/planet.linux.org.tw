@@ -1,0 +1,200 @@
+body {
+	border-right: 1px solid black;
+	margin-right: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #ffd;
+}
+
+h1.site {
+	margin-top: 0px;
+	padding-top: 20px;
+	font-family: "Bitstream Vera Sans", sans-serif;
+	font-weight: normal;
+	letter-spacing: -2px;
+	text-transform: lowercase;
+	text-align: right;
+	color: grey;
+}
+
+h2.date {
+	font-family: "Bitstream Vera Sans", sans-serif;
+	font-weight: bold;
+	color: grey;
+	margin-left: -20px;
+}
+
+pre {
+	 white-space: pre-wrap;       /* css-3 */
+	 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	 white-space: -pre-wrap;      /* Opera 4-6 */
+	 white-space: -o-pre-wrap;    /* Opera 7 */
+	 word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+img.face {
+	/*float: right;*/
+	/*margin-top: -5em;*/
+	border: 0px;
+}
+
+a.face, a.face:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+/* sidebar start */
+.sidebar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 200px;
+
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+
+	padding-top: 20px;
+	padding-left: 0px;
+
+	font-family: "Bitstream Vera Sans", sans-serif;
+	font-size: 85%;
+}
+
+.sidebar h2 {
+	font-size: 110%;
+	font-weight: bold;
+	color: black;
+	padding-left: 5px;
+	margin-left: 0px;
+}
+
+.sidebar ul {
+	padding-left: 2em;
+	margin-left: 0px;
+	list-style-type: square;
+}
+
+.sidebar ul li:hover {
+	color: grey;
+}
+
+.sidebar div.block {
+	border-bottom: 1px dashed black;
+	padding-left: 5px;
+}
+/* sidebar end */
+
+/* bubble start */
+div.person-info {
+	float: left;
+	position: relative;
+	left: 4px;
+	margin-top: 25px!important;
+	padding: 0 20px 30px 0;
+	width: 120px;
+	background: url(images/bubble-nipple.png) top right no-repeat;
+	text-align: center;
+}
+
+div.person-info a {
+	text-decoration: none;
+	color: #666;
+}
+
+div.post {
+	background: #fff url(images/bubble-left.png) left repeat-y;
+	margin-left: 140px;
+}
+
+div.post2 {
+	background: url(images/bubble-right.png) right repeat-y;
+}
+
+div.post-contents {
+	padding: 0 25px 0 25px;
+	margin-right: 10px;
+}
+
+div.post-contents p {
+	line-height: 140%;
+	height: auto;
+	margin-top: 1em!important;
+}
+
+div.post-contents img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+div.post-contents blockquote {
+	color: #666;
+	line-height: 150%;
+}
+
+div.post-contents:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h4.post-title, div.post-title {
+	background: url(images/bubble-top-left.png) top left no-repeat;
+	margin: 1em 0 0 0;
+}
+
+h4.post-title a, div.post-title span {
+	display: block;
+	color: black;
+	background: url(images/bubble-top-right.png) top right no-repeat;
+	padding: 22px 25px 0 25px;
+	font-weight: bold;
+	font-size: 140%;
+	text-decoration: none;
+}
+
+h4.post-title a:hover {
+	text-decoration: underline;
+	color: inherit;
+}
+
+div.post-title span {
+	display: block;
+	height: 20px;
+	font-size: 100%;
+}
+
+div.post-title {
+	display: block;
+}
+
+div.post-header {
+	background: url(images/bubble-top.png) top repeat-x;
+}
+
+
+div.post-footer {
+	background: url(images/bubble-bottom.png) bottom repeat-x;
+}
+
+div.post-footer p {
+	background: url(images/bubble-bottom-left.png) bottom left no-repeat;
+	margin: 0;
+}
+
+div.post-footer p a {
+	display: block;
+	background: url(images/bubble-bottom-right.png) bottom right no-repeat;
+	padding: 15px 20px 20px 25px;
+	text-align: right;
+	font-size: 85%;
+	color: #999;
+	text-decoration: none;
+}
+
+div.post-footer p a:hover {
+	color: inherit;
+	text-decoration: underline;
+}
+/* bubble end */
